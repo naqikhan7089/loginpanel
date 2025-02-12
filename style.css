@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(123.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagelogo{
+    background-image:url(logo.png);
+    position: absolute;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    left: 15px;
+    top: 10px;
+}
+.container{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 20px 0;
+    color: white;
+    font-size: 2em;
+}
+.form-group input{
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-size: 1.2em;
+    color: white;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-group label{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.container p{
+    color: white;
+    padding: 10px 0;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container a{
+    color: white;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+#btn{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: 0.2s;
+}
+#btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.container a:hover{
+    color: blueviolet;
+    font-style: italic;
+}
+.form-group span{
+    height: 20px;
+    width: 20px;
+}
+
